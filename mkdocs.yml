@@ -1,3 +1,9 @@
+site_name: Cache Grab
+
+theme:
+  name: material
+  font: false
+
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -10,3 +16,8 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
+
+plugins:
+  - search
+  - privacy
+  - offline
